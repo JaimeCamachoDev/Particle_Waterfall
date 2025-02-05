@@ -1,35 +1,9 @@
 <header>
 
-![Sin título-2](https://github.com/user-attachments/assets/5b933a56-0ece-452a-99c0-1a641485a6b9)
+![VFX_2025-02-05_052](https://github.com/user-attachments/assets/30762460-b6b3-4cb4-b647-51cb60901ae4)
 
-# Titulo
+# Particle_Waterfall
 
-_Descripción_
+_Particle System in Unity 6 URP_
 
 </header>
-
-## Subtitulo
-
-Descripción :tada: :keyboard: 
-
-Asi se hacen hypervinculos [repository](https://github.com/JaimeCamachoDev/Template?tab=readme-ov-file#titulo).
-
-### Encabezado
-
-1. Lista
-1. Lista
-1. Lista
-1. Lista
-1. Lista
-1. Lista
-
-<footer>
-
-<!--
-  <<< Author notes: Footer >>>
-  Add a link to get support, GitHub status page, code of conduct, license link.
--->
-
----
-
-</footer>
