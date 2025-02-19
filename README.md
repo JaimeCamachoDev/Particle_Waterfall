@@ -11,4 +11,6 @@
 
 _Particle System and Shader in Unity 6 URP_
 
+Reference: https://www.reddit.com/r/Unity3D/comments/1ioel31/you_can_simulate_a_water_pipe_by_using_polar/
+
 </header>
