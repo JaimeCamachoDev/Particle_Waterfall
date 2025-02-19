@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Ripples
-  m_Shader: {fileID: -6465566751694194690, guid: fb638116740cc2742895b9c22303a5da, type: 3}
+  m_Name: Ripples V2
+  m_Shader: {fileID: -6465566751694194690, guid: 68c28f43aca5a3a44a0bf9e2a67a6075, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -20,12 +20,16 @@ Material:
   stringTagMap: {}
   disabledShaderPasses:
   - MOTIONVECTORS
-  m_LockedProperties: 
+  m_LockedProperties: _Color
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
     - _BumpOlas_6cc3ac009ee94c3caa759a7b72193f48_NormalTextura_2211110780_Texture2D:
         m_Texture: {fileID: 2800000, guid: 800e061692ff7a84e887f439d3364410, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_6a88f4a589e941069d1c8d1c29414df9_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 7a4e5df7107a3d34988d107e673c740b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_852a3ad86bae4feb80e551b1c62107de_Texture_1_Texture2D:
@@ -36,11 +40,15 @@ Material:
         m_Texture: {fileID: 2800000, guid: 054dd1c23a7e11e4090e24b6d47a1377, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _Texture2DAsset_46aa71fa0c154656b70dfc79e8f3be93_Out_0_Texture2D:
+    - _SampleTexture2D_cab6748c8ce448fa8c11b101aa448b6d_Texture_1_Texture2D:
         m_Texture: {fileID: 2800000, guid: 800e061692ff7a84e887f439d3364410, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _Texture2DAsset_af7c28f1244042ab86fadd9b2330ce01_Out_0_Texture2D:
+    - _Texture2DAsset_40c83a6c6a4c4836847bd27cf870bb66_Out_0_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 800e061692ff7a84e887f439d3364410, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2DAsset_46aa71fa0c154656b70dfc79e8f3be93_Out_0_Texture2D:
         m_Texture: {fileID: 2800000, guid: 800e061692ff7a84e887f439d3364410, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -63,20 +71,26 @@ Material:
     m_Ints: []
     m_Floats:
     - _AO: 0.578
-    - _Float: 0.8
+    - _Float: 0.15
     - _Float_1: 0.836
     - _Float_2: 0.554
-    - _Metallic: 0.587
+    - _Metallic: 0.165
+    - _Normal_Intensity: 0.78
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Smoothness: 0.748
+    - _Smoothness: 0.239
+    - _Smootness: 0
     - _Speed: 1
-    - _Speed_Water: 4
+    - _Speed_Water: 0.4
     - _Speed_Wave: 1
+    - _Twist: -1
+    - _Vignete: -0.54
     - _Wave: 5
     m_Colors:
-    - _Color: {r: 0.3556426, g: 0.6088969, b: 0.6792453, a: 0}
+    - _Color: {r: 0, g: 0.19691244, b: 0.26415092, a: 1}
     - _Color_1: {r: 1, g: 1, b: 1, a: 0}
+    - _Vector2: {r: 0, g: 0.7, b: 0, a: 0}
+    - _Vector2_1: {r: -1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &1942226375417756698
